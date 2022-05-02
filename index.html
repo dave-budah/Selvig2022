@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Title</title>
+    <meta name="description" content="Selvigtech is a tech startup founded by Dave Budah in 2020.">
+    <meta name="author" content="Dave Budah">
+
+    <meta property="og:title" content="A Basic HTML5 Template">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.selvigtech.com">
+    <meta property="og:description" content="This a Selvigtech website">
+    <meta property="og:image" content="image.png">
+
+    <link rel="icon" href="images/logos/favicon.png">
+    <link rel="icon" href="images/logos/favicon.png" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/logos/favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="images/logos/logo.png" alt="" class="logo">
+        </a>
+        <div class="toggle">
+            <a><span class="fa fa-bars"></span></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section id="hero">
+    <div class="container">
+         <div class="hero-title">
+             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio.</h2>
+             <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis <br> doloremque dolorum illo illum officia praesentium quas quos. Facere.</h5>
+             <a href="" class="heroBTtn">Lean more</a>
+         </div>
+        <div class="hero__img">
+            <img src="images/hero_b.jpg" alt="" width="100%">
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <div class="card web__design">
+            <h3>WEB DESIGN</h3>
+            <p>View projects</p>
+        </div>
+        <div class="card app__design">
+            <h3>APP DESIGN</h3>
+            <p>View projects</p>
+        </div>
+        <div class="card digital">
+            <h3>DIGITAL MARKETING</h3>
+            <p>View projects</p>
+        </div>
+    </div>
+</section>
+<section id="articles">
+    <div class="container">
+        <div class="card">
+            <a href="detail.html" class="card__header">
+                <img src="images/blog-a.jpg" class="card__image" width="600">
+            </a>
+            <div class="card__body">
+                <span class="tag tag-blue">Technology</span>
+                <h4>What's new in 2022 Tech</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+            </div>
+            <div class="card__footer">
+                <div class="user">
+                    <img src="images/placeholder.png" class="user__image" alt="">
+                    <div class="user__info">
+                        <h5>Jane Doe</h5>
+                        <small>2h ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <a href="detail.html" class="card__header">
+                <img src="images/mobile.jpg" class="card__image" width="600" alt="">
+            </a>
+            <div class="card__body">
+                <span class="tag tag-brown">Food</span>
+                <h4>Delicious Food</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+            </div>
+            <div class="card__footer">
+                <div class="user">
+                    <img src="images/placeholder.png" alt="user__image" class="user__image">
+                    <div class="user__info">
+                        <h5>Jony Doe</h5>
+                        <small>Yesterday</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__header">
+                <img src="images/blog-b.jpg" alt="card__image" class="card__image" width="600">
+            </div>
+            <div class="card__body">
+                <span class="tag tag-red">Automobile</span>
+                <h4>Race to your heart content</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+            </div>
+            <div class="card__footer">
+                <div class="user">
+                    <img src="images/placeholder.png" alt="user__image" class="user__image">
+                    <div class="user__info">
+                        <h5>John Doe</h5>
+                        <small>2d ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts_section">
+    <div class="container">
+        <div class="contact_us">
+            <div class="contact_text">
+                <h4>For more information or enquiries</h4>
+                <p>If you want to hire us, click the button or use the <br> provided contact information.</p>
+            </div>
+           <div>
+               <button class="btn">Get In Touch</button>
+           </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="footer-content">
+        <h3>Selvigtech</h3>
+        <p>Selvigtech is a tech startup founded by Dave Budah in 2020. It specialized in Mobile and Web applications development.</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Articles</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>  &copy; <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script> Selvigtech</p>
+
+    </div>
+
+</footer>
+
+<script src="js/custom.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/fontawesome.min.js"></script>
+<script>
+    $(function(){
+        $('.toggle').on('click', function(){
+            if ($('.menu').hasClass('active')){
+                $('.menu').removeClass('active');
+                $(this).find('a').html('<span class="fa fa-bars"></span>');
+            } else {
+                $('.menu').addClass('active');
+                $(this).find('a').html('<span class="fa fa-times"></span>');
+            }
+        });
+
+        $(window).on('scroll', function () {
+            if ( $(window).scrollTop() > 10 ) {
+                $('.navbar').addClass('active');
+            } else {
+                $('.navbar').removeClass('active');
+            }
+        });
+    });
+
+</script>
+</body>
+</html>
