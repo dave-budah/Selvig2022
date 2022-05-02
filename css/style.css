@@ -767,6 +767,7 @@ footer{
     }
     #hero {
         height: auto;
+        margin-top: 4rem;
     }
     #hero .container {
         padding: 4rem 1rem 1rem;
