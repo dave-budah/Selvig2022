@@ -785,6 +785,7 @@ footer{
         margin-left: 1rem;
         margin-top: 1rem;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -816,7 +817,9 @@ footer{
         top: 15px;
         right: 20px;
     }
-
+    #articles .card {
+        width: 100%;
+    }
 }
 
 #hide {
